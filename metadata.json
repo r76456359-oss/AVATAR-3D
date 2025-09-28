@@ -1,0 +1,7 @@
+{
+  "name": "Copy of 3D AI Avatar Mirror",
+  "description": "An application that uses your camera to track your movements in real-time and mirrors them onto a 3D avatar using AI-powered pose estimation.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
