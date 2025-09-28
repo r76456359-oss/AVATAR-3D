@@ -24,7 +24,7 @@ interface AvatarCanvasProps {
 
 // Define Model component outside of AvatarCanvas to prevent re-creation on re-render
 const Model: React.FC<{ landmarks: PoseLandmarkerResult | null }> = ({ landmarks }) => {
-  const { scene } = useGLTF('https://models.readyplayer.me/667308709f3e496353d3b5b6.glb');
+  const { scene } = useGLTF('https://models.readyplayer.me/658d99c912d30558a3321516.glb');
 
   useFrame(() => {
     if (landmarks && landmarks.worldLandmarks && landmarks.worldLandmarks.length > 0) {
